@@ -1,0 +1,28 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .untuk-main p{
+        font-size : 50 px;
+    }
+   
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+   .header-right{
+    display : none;
+   }
+   .menu-icon{
+    display: block;
+   }
+   .untuk-main {
+    text-align: center;
+   }
+   .untuk-main p{
+    font-size: 24;
+    line-height: 36px;
+   }
+   .formulir p{
+    font-size: 14px;
+    line-height: 20px;
+   }
+  }
